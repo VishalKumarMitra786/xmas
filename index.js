@@ -13,6 +13,6 @@ $(function () {
         var anchor = $('.xmas-a');
         anchor.attr('href', "whatsapp://send?text=" + shareMsg);
         anchor.attr('data-action', "share/whatsapp/share");
-        anchor.click();
+        anchor.get(0).click();
     });
 });

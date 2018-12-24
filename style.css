@@ -67,7 +67,7 @@
 }
 
 .xmas-audio {
-    display: none;
+    visibility: hidden;
 }
 
 @media (max-width:560px) {
