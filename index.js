@@ -2,7 +2,7 @@ $(function () {
     var url_string = window.location.href; //window.location.href
     var url = new URL(url_string);
     var name = url.searchParams.get("name");
-    $('#name').append('~from ' + name ? name : 'santa');
+    $('#name').append('~from ' + (name ? name : 'santa'));
     $('.tlt').textillate({ in: { effect: 'rollIn' } });
 
     $('.share').click(function (evt) {
