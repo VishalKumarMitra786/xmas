@@ -1,0 +1,122 @@
+.banner {
+    background-image: url(santa2.GIF);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1024px;
+    position: relative;
+}
+
+
+.xmas-img {
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+
+.xmas-span {
+    color: white;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    left: 55%;
+    top: 42%;
+    font-size: 30px;
+}
+
+.xmas-label {
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+.xmas-input {
+    margin-top: 5px;
+    margin-bottom: 6px;
+}
+
+.xmas-form {
+    position: absolute;
+    left: 43%;
+    top: 48%;
+    text-align: center;
+}
+
+.xmas-text {
+    color: white;
+    font-family: 'Comic Sans MS';
+    position: absolute;
+    left: 35%;
+    top: 37%;
+    font-size: 52px;
+}
+
+.xmas-a-text {
+    color: white;
+    font-family: 'Comic Sans MS';
+    font-size: 12px;
+}
+
+.xmas-a {
+    visibility: hidden;
+}
+
+.xmas-p {
+    position: absolute;
+    left: 42%;
+    top: 35%;
+}
+
+.xmas-audio {
+    display: none;
+}
+
+@media (max-width:560px) {
+
+    /* your conditional / responsive CSS inside this condition */
+
+    .xmas-img {
+        left: 0%;
+        top: 10%;
+    }
+
+    .xmas-text {
+        font-size: 42px;
+        left: 6%;
+    }
+
+    .xmas-span {
+        font-size: 25px;
+        left: 54%;
+        top: 42%;
+    }
+
+    .xmas-form {
+        left: 24%;
+        top: 47%;
+    }
+
+    .xmas-p {
+        left: 28%;
+    }
+}
+
+@media (min-width:414px) and (max-width:700px) {
+
+    /* your conditional / responsive CSS inside this condition */
+
+    .xmas-img {
+        left: 2%;
+        top: 10%;
+    }
+
+    .xmas-text {
+        font-size: 42px;
+        left: 10%;
+    }
+
+    .xmas-span {
+        font-size: 25px;
+        left: 56%;
+        top: 42%;
+    }
+}
