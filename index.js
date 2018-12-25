@@ -7,7 +7,7 @@ $(function () {
 
     $('.share').click(function (evt) {
         var base_url = window.location.origin;
-        var shareMsg = base_url + "/xmas?name=" + ($('.xmas-input').val() ? $('.xmas-input').val() : 'santa');
+        var shareMsg = base_url + "?name=" + ($('.xmas-input').val() ? $('.xmas-input').val() : 'santa');
         console.log(shareMsg);
         var anchor = $('.xmas-a');
         anchor.attr('href', "whatsapp://send?text=" + shareMsg);
